@@ -38,7 +38,7 @@ def save_image(image, filename):
         image = Image.fromarray(tf.cast(image, tf.uint8).numpy())
     image.save("%s.jpg" % filename)
     print("Saved as %s.jpg" % filename)
-  
+
 # # Suppress matplotlib user warnings
 # # Necessary for newer version of matplotlib
 # import warnings
